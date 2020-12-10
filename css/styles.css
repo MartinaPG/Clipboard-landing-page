@@ -1,0 +1,510 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.bgmobile{
+  width: 100%;
+  position:absolute;
+  z-index: -1;
+}
+.bgdeskt{
+  display: none;
+}
+.logo{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  z-index: 0;
+}
+.wrapper{
+  width: 85%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  margin-top: -50px;
+  z-index: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+h2{
+  color: hsl(210, 10%, 33%);
+  font-size: 2rem;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+p{
+  color: hsl(201, 11%, 66%);
+  font-size: 1rem;
+  padding: 0 20px;
+  line-height: 25px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: white;
+}
+.button1{
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: white;
+  font-weight: 600;
+  background-color: hsl(171, 66%, 44%);
+  border:0;
+  box-shadow:0px 3.5px #239c87;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 5px;
+}
+.button1:hover{
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: white;
+  font-weight: 600;
+  background-color:#8ad8d1;
+  border:0;
+  box-shadow:0px 3.5px #8ad8d1;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 5px;
+}
+.button2{
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: white;
+  font-weight: 600;
+  background-color: hsl(233, 100%, 69%);
+  border:0;
+  box-shadow:0px 3.5px #5063de;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 5px;
+}
+.button2:hover{
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: white;
+  font-weight: 600;
+  background-color: #acacf4;
+  border:0;
+  box-shadow:0px 3.5px #acacf4;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 5px;
+}
+.sec{
+  margin-top: 100px;
+}
+.third{
+  margin-top: 50px;
+}
+
+.computer-img{
+  width: 100%;
+  padding: 20px;
+}
+.list{
+  width: 30%;
+  margin: 20px 0;
+}
+.s1{
+  margin-top: 0;
+}
+.s2{
+  margin-top: 0;
+}
+.s3{
+  margin-top: 0;
+}
+.section2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.log{
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos{
+  display: block;
+  margin: 40px 0;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f6f8;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+footer p{
+  font-family: 'Bai Jamjuree', sans-serif;
+  color:  hsl(210, 10%, 33%);
+}
+footer p:hover{
+  font-family: 'Bai Jamjuree', sans-serif;
+  color:  #239c87;
+}
+.btm{
+width: 50px;
+height: 50px;
+margin: 10% 0;
+}
+.socila{
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+
+}
+.soc{
+  border: solid 2px transparent;
+  margin: 0 10px;
+  padding: 5px;
+}
+.soc:hover{
+
+  margin: 0 10px;
+  border: solid 2px #239c87;
+  border-radius: 5px;
+  padding: 5px;
+}
+@media only screen and (min-width:768px) {
+  .logoimg{
+    width: 200px;
+    height: 200px;
+  }
+  .bgdeskt{
+    display: none;
+    position: relative;
+  }
+  .logo{
+    height: 450;
+  }
+  h2{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  .button1{
+    font-size: 1.5rem;
+    height: 70px;
+  }
+  .button1:hover{
+    font-size: 1.5rem;
+    height: 70px;
+  }
+  .button2{
+    font-size: 1.5rem;
+    height: 70px;
+  }
+  .button2:hover{
+    font-size: 1.5rem;
+    height: 70px;
+  }
+  .list{
+    width: 20%;
+  }
+  .logos{
+    width: 30%;
+  }
+  .btm{
+    width: 70px;
+    height: 70px;
+  }
+  .soc{
+    width: 50px;
+  }
+  .soc:hover{
+    width: 50px;
+  }
+}
+@media only screen and (min-width:1440px) {
+  .bgmobile{
+    display: none;
+  }
+  .bgdeskt{
+    display: block;
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+  }
+  .logoimg{
+    width: 125px;
+    height: 125px;
+  }
+  .logo{
+    height: 300px;
+  }
+  .wrapper{
+    width: 70%;
+  }
+  .buttons{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 1.5rem;
+    line-height: 30px;
+
+  }
+  .button1{
+    font-size: 1.5rem;
+    height: 70px;
+    width: 25%;
+      margin: 10px 10px;
+  }
+  .button1:hover{
+    font-size: 1.5rem;
+    height: 70px;
+    width: 25%;
+      margin: 10px 10px;
+  }
+  .button2{
+    font-size: 1.5rem;
+    height: 70px;
+    width: 25%;
+      margin: 10px 10px;
+  }
+  .button2:hover{
+    font-size: 1.5rem;
+    height: 70px;
+    width: 25%;
+    margin: 10px 10px;
+  }
+  .computer-img{
+    width: 150%;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+  .list{
+    width: 20%;
+    align-self: center;
+  }
+  .l1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: auto;
+    padding-top: 10%;
+  }
+  .l2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
+    padding-top: 10%;
+  }
+  .l3{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: auto;
+    padding-top: 10%;
+  }
+  .logos{
+  width: 15%;
+  margin: 0 5%;
+  }
+  .btm{
+    width: 70px;
+    height: 70px;
+  }
+  .soc{
+    width: 50px;
+  }
+  .soc:hover{
+    width: 50px;
+  }
+  .section1{
+    width: 100%;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    padding: 100px 0;
+
+  }
+  .t1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-left: -25%;
+
+  }
+.t2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 15%;
+
+}
+.t2 h2{
+  margin-top: 0;
+}
+.t3 h2{
+  margin-top: 0;
+}
+.t4 h2{
+  margin-top: 0;
+}
+.t3{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  justify-content: center;
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 15%;
+}
+.t4{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  text-align: left;
+  padding-left: 25%;
+  padding-right: 15%;
+}
+.third{
+  margin: 0;
+
+}
+.d{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,33.333%);
+  grid-template-rows: repeat(2,auto);
+}
+.s1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+}
+.s2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+}
+.s3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+}
+.log{
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+footer {
+  margin-top: 15vh;
+  display: grid;
+  grid-template-columns: repeat(8,12.5%);
+  grid-template-rows: repeat(4,25%);
+}
+.btm{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.p1{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.p2{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.p3{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.p4{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.p5{
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.socila{
+  width: 100%;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  padding-bottom:
+}
+
+}
